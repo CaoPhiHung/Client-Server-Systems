@@ -1,0 +1,11 @@
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\bin\Debug\netcoreapp2.0\Diamond.deps.json
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\bin\Debug\netcoreapp2.0\Diamond.runtimeconfig.json
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\bin\Debug\netcoreapp2.0\Diamond.runtimeconfig.dev.json
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\bin\Debug\netcoreapp2.0\Diamond.dll
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\bin\Debug\netcoreapp2.0\Diamond.pdb
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\obj\Debug\netcoreapp2.0\Diamond.csprojResolveAssemblyReference.cache
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\obj\Debug\netcoreapp2.0\Diamond.csproj.CoreCompileInputs.cache
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\obj\Debug\netcoreapp2.0\Diamond.AssemblyInfoInputs.cache
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\obj\Debug\netcoreapp2.0\Diamond.AssemblyInfo.cs
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\obj\Debug\netcoreapp2.0\Diamond.dll
+C:\Users\300279621\Desktop\Client-Server-Systems\Week1\Diamond\Diamond\obj\Debug\netcoreapp2.0\Diamond.pdb
