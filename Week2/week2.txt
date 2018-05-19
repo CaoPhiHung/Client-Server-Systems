@@ -1,0 +1,5 @@
+class is definiton of  obj
+ex: account class
+instance var: 
+class var: the value of variable doesnot depend on the object 
+get/set method can be implement with logic/ data validation (instead of using public variables)

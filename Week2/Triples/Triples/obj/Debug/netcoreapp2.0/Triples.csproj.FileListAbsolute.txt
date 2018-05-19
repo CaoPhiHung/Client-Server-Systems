@@ -1,0 +1,11 @@
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.csprojResolveAssemblyReference.cache
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.csproj.CoreCompileInputs.cache
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.AssemblyInfoInputs.cache
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.AssemblyInfo.cs
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.deps.json
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.runtimeconfig.json
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.runtimeconfig.dev.json
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.dll
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.pdb
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.dll
+C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.pdb
