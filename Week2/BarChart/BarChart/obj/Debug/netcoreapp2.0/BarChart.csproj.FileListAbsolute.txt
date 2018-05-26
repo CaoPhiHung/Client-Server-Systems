@@ -1,0 +1,11 @@
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\bin\Debug\netcoreapp2.0\BarChart.deps.json
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\bin\Debug\netcoreapp2.0\BarChart.runtimeconfig.json
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\bin\Debug\netcoreapp2.0\BarChart.runtimeconfig.dev.json
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\bin\Debug\netcoreapp2.0\BarChart.dll
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\bin\Debug\netcoreapp2.0\BarChart.pdb
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\obj\Debug\netcoreapp2.0\BarChart.csprojAssemblyReference.cache
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\obj\Debug\netcoreapp2.0\BarChart.csproj.CoreCompileInputs.cache
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\obj\Debug\netcoreapp2.0\BarChart.AssemblyInfoInputs.cache
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\obj\Debug\netcoreapp2.0\BarChart.AssemblyInfo.cs
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\obj\Debug\netcoreapp2.0\BarChart.dll
+C:\Dev\Client-Server-Systems\Week2\BarChart\BarChart\obj\Debug\netcoreapp2.0\BarChart.pdb
