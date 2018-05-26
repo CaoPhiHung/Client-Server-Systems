@@ -9,3 +9,14 @@ C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\bin\Debug
 C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.pdb
 C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.dll
 C:\Users\300279621\Desktop\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.pdb
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.deps.json
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.runtimeconfig.json
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.runtimeconfig.dev.json
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.dll
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\bin\Debug\netcoreapp2.0\Triples.pdb
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.csprojAssemblyReference.cache
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.csproj.CoreCompileInputs.cache
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.AssemblyInfoInputs.cache
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.AssemblyInfo.cs
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.dll
+C:\Dev\Client-Server-Systems\Week2\Triples\Triples\obj\Debug\netcoreapp2.0\Triples.pdb
