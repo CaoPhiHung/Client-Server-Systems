@@ -1,0 +1,11 @@
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\bin\Debug\netcoreapp2.0\Factorials.deps.json
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\bin\Debug\netcoreapp2.0\Factorials.runtimeconfig.json
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\bin\Debug\netcoreapp2.0\Factorials.runtimeconfig.dev.json
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\bin\Debug\netcoreapp2.0\Factorials.dll
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\bin\Debug\netcoreapp2.0\Factorials.pdb
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\obj\Debug\netcoreapp2.0\Factorials.csprojAssemblyReference.cache
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\obj\Debug\netcoreapp2.0\Factorials.csproj.CoreCompileInputs.cache
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\obj\Debug\netcoreapp2.0\Factorials.AssemblyInfoInputs.cache
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\obj\Debug\netcoreapp2.0\Factorials.AssemblyInfo.cs
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\obj\Debug\netcoreapp2.0\Factorials.dll
+C:\Dev\Client-Server-Systems\Week3\Lab4\Factorials\Factorials\obj\Debug\netcoreapp2.0\Factorials.pdb

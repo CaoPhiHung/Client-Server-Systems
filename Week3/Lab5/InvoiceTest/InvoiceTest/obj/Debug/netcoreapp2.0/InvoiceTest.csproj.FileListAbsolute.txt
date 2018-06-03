@@ -1,0 +1,11 @@
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\bin\Debug\netcoreapp2.0\InvoiceTest.deps.json
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\bin\Debug\netcoreapp2.0\InvoiceTest.runtimeconfig.json
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\bin\Debug\netcoreapp2.0\InvoiceTest.runtimeconfig.dev.json
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\bin\Debug\netcoreapp2.0\InvoiceTest.dll
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\bin\Debug\netcoreapp2.0\InvoiceTest.pdb
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\obj\Debug\netcoreapp2.0\InvoiceTest.csprojAssemblyReference.cache
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\obj\Debug\netcoreapp2.0\InvoiceTest.csproj.CoreCompileInputs.cache
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\obj\Debug\netcoreapp2.0\InvoiceTest.AssemblyInfoInputs.cache
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\obj\Debug\netcoreapp2.0\InvoiceTest.AssemblyInfo.cs
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\obj\Debug\netcoreapp2.0\InvoiceTest.dll
+C:\Dev\Client-Server-Systems\Week3\Lab5\InvoiceTest\InvoiceTest\obj\Debug\netcoreapp2.0\InvoiceTest.pdb
