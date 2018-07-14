@@ -34,5 +34,16 @@ namespace Product_Queries.Properties {
                 return ((string)(this["ProductDBConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\ProductDB.mdf" +
+            ";Integrated Security=True;Connect Timeout=30")]
+        public string ProductDBConnectionString1 {
+            get {
+                return ((string)(this["ProductDBConnectionString1"]));
+            }
+        }
     }
 }

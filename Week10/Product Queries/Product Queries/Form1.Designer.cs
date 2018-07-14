@@ -31,19 +31,21 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.tableBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.tableDataGridView = new System.Windows.Forms.DataGridView();
+            this.sortByPriceButton = new System.Windows.Forms.Button();
+            this.unitsGreaterThan100Button = new System.Windows.Forms.Button();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,8 +54,7 @@
             this.productDBDataSet = new Product_Queries.ProductDBDataSet();
             this.tableTableAdapter = new Product_Queries.ProductDBDataSetTableAdapters.TableTableAdapter();
             this.tableAdapterManager = new Product_Queries.ProductDBDataSetTableAdapters.TableAdapterManager();
-            this.sortByPriceButton = new System.Windows.Forms.Button();
-            this.unitsGreaterThan100Button = new System.Windows.Forms.Button();
+            this.averagePriceButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tableBindingNavigator)).BeginInit();
             this.tableBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tableDataGridView)).BeginInit();
@@ -91,6 +92,31 @@
             this.tableBindingNavigator.TabIndex = 0;
             this.tableBindingNavigator.Text = "bindingNavigator1";
             // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
+            // 
             // bindingNavigatorMoveFirstItem
             // 
             this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -123,16 +149,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
@@ -155,26 +174,8 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // tableBindingNavigatorSaveItem
             // 
@@ -199,6 +200,26 @@
             this.tableDataGridView.Name = "tableDataGridView";
             this.tableDataGridView.Size = new System.Drawing.Size(443, 220);
             this.tableDataGridView.TabIndex = 1;
+            // 
+            // sortByPriceButton
+            // 
+            this.sortByPriceButton.Location = new System.Drawing.Point(12, 258);
+            this.sortByPriceButton.Name = "sortByPriceButton";
+            this.sortByPriceButton.Size = new System.Drawing.Size(75, 42);
+            this.sortByPriceButton.TabIndex = 2;
+            this.sortByPriceButton.Text = "Sort by Price";
+            this.sortByPriceButton.UseVisualStyleBackColor = true;
+            this.sortByPriceButton.Click += new System.EventHandler(this.sortByPriceButton_Click);
+            // 
+            // unitsGreaterThan100Button
+            // 
+            this.unitsGreaterThan100Button.Location = new System.Drawing.Point(103, 258);
+            this.unitsGreaterThan100Button.Name = "unitsGreaterThan100Button";
+            this.unitsGreaterThan100Button.Size = new System.Drawing.Size(198, 42);
+            this.unitsGreaterThan100Button.TabIndex = 3;
+            this.unitsGreaterThan100Button.Text = "Products With More Than 100 Units";
+            this.unitsGreaterThan100Button.UseVisualStyleBackColor = true;
+            this.unitsGreaterThan100Button.Click += new System.EventHandler(this.unitsGreaterThan100Button_Click);
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -244,31 +265,22 @@
             this.tableAdapterManager.TableTableAdapter = this.tableTableAdapter;
             this.tableAdapterManager.UpdateOrder = Product_Queries.ProductDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // sortByPriceButton
+            // averagePriceButton
             // 
-            this.sortByPriceButton.Location = new System.Drawing.Point(32, 268);
-            this.sortByPriceButton.Name = "sortByPriceButton";
-            this.sortByPriceButton.Size = new System.Drawing.Size(75, 23);
-            this.sortByPriceButton.TabIndex = 2;
-            this.sortByPriceButton.Text = "Sort by Price";
-            this.sortByPriceButton.UseVisualStyleBackColor = true;
-            this.sortByPriceButton.Click += new System.EventHandler(this.sortByPriceButton_Click);
-            // 
-            // unitsGreaterThan100Button
-            // 
-            this.unitsGreaterThan100Button.Location = new System.Drawing.Point(211, 268);
-            this.unitsGreaterThan100Button.Name = "unitsGreaterThan100Button";
-            this.unitsGreaterThan100Button.Size = new System.Drawing.Size(244, 23);
-            this.unitsGreaterThan100Button.TabIndex = 3;
-            this.unitsGreaterThan100Button.Text = "Products With More Than 100 Units";
-            this.unitsGreaterThan100Button.UseVisualStyleBackColor = true;
-            this.unitsGreaterThan100Button.Click += new System.EventHandler(this.unitsGreaterThan100Button_Click);
+            this.averagePriceButton.Location = new System.Drawing.Point(320, 258);
+            this.averagePriceButton.Name = "averagePriceButton";
+            this.averagePriceButton.Size = new System.Drawing.Size(127, 42);
+            this.averagePriceButton.TabIndex = 4;
+            this.averagePriceButton.Text = "Average Price of All Items";
+            this.averagePriceButton.UseVisualStyleBackColor = true;
+            this.averagePriceButton.Click += new System.EventHandler(this.averagePriceButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(459, 308);
+            this.Controls.Add(this.averagePriceButton);
             this.Controls.Add(this.unitsGreaterThan100Button);
             this.Controls.Add(this.sortByPriceButton);
             this.Controls.Add(this.tableDataGridView);
@@ -313,6 +325,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.Button sortByPriceButton;
         private System.Windows.Forms.Button unitsGreaterThan100Button;
+        private System.Windows.Forms.Button averagePriceButton;
     }
 }
 
