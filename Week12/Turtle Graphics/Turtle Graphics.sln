@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turtle Graphics", "Turtle Graphics\Turtle Graphics.csproj", "{191884C0-FB2A-487F-8C0A-EF7DA8FB6CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{191884C0-FB2A-487F-8C0A-EF7DA8FB6CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191884C0-FB2A-487F-8C0A-EF7DA8FB6CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191884C0-FB2A-487F-8C0A-EF7DA8FB6CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191884C0-FB2A-487F-8C0A-EF7DA8FB6CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0DACE85-4D83-4C89-86F1-007217D13B36}
+	EndGlobalSection
+EndGlobal
